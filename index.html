@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- home section -->
+    <section id="Home">
+        <div class="front">
+         <h1 id="heading">
+            Discover true<br>personalization. 
+         </h1>
+         <p>_____ made to shop dresses</p>
+         <a href="#Women"><img src="down-arrow.png" alt=""></a>
+        </div>
+       <div class="container">
+        <nav id="nav">
+            <div class="logo">
+                <img src="logo.png" >
+            </div>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Women">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="icons">
+                <li><a href="#"><img src="icon.png" alt=""></a></li>
+                <li><a href="#"><img src="heart.png" alt=""></a></li>
+                <li><a href="#"><img src="notification.png" alt=""></a></li>
+             </div>
+         </nav>
+         <div class="content-image">
+           <div class="image-slider">
+            <img src="image1.jpg" id="slideShow" >
+            <img src="image2.jpg" id="slideShow" >
+            <img src="image3.jpg"  id="slideShow" >
+           </div>
+         </div>
+         
+       
+  </section>
+   <section class="section2" id="Women">
+     <div class="womendress" id="womenDress">
+        <div class="womens-sideSection">
+            <li><a href="#Women" onclick="slideHits()">Hits</a></li>
+            <li><a href="#Women" onclick="slideNew()">New collecton</a></li>
+            <li><a href="#Women" onclick="slideLatest()">Latest collection</a></li>
+        </div>
+      <div class="womens-collection">
+        <div class="hits" id="hits">
+            <div class="hits-box">
+                <img src="hits-image1.webp" alt="">
+                <p>Ethnic Dress Kurta</p>
+                <button>+Add</button>
+            </div>
+            <div class="hits-box">
+                <img src="hits-image2.jpg" alt="">
+                <p>Slub Silk Koti</p>
+                <button>+Add</button>
+            </div>
+            <div class="hits-box">
+                <img src="hits-image3.webp" alt="">
+                <p>Party Wear</p>
+                <button>+Add</button>
+            </div>
+            <div class="hits-box">
+                <img src="hits-image4.jpg" alt="">
+                <p>Salawar Suit</p>
+                <button>+Add</button>
+            </div>
+        </div>
+        <div class="women-new-collection" id="women-new-collection">
+            <div class="new-box"></div>
+            <div class="new-box"></div>
+            <div class="new-box"></div>
+            <div class="new-box"></div>
+        </div>
+        <div class="latest-women-collection" id="latest-women-collection">
+            <div class="latest-box"></div>
+            <div class="latest-box"></div>
+            <div class="latest-box"></div>
+            <div class="latest-box"></div>
+        </div>
+      </div>
+     </div>
+</section>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
